@@ -7,7 +7,7 @@ use Scalar::Util qw(reftype);
 
 use Carp;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 our @EXPORT_OK = qw(bind_named);
 
 sub bind_named {
@@ -45,7 +45,7 @@ __END__
 
 =head1 NAME
 
-SQL::NamedPlaceholder - 
+SQL::NamedPlaceholder - extension of placeholder
 
 =head1 SYNOPSIS
 
