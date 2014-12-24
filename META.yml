@@ -3,18 +3,19 @@ abstract: 'extension of placeholder'
 author:
   - 'cho45 <cho45@lowreal.net>'
 build_requires:
-  ExtUtils::MakeMaker: 6.36
-  Test::Name::FromLine: 0
+  Test::Fatal: '0'
+  Test::More: '0.98'
 configure_requires:
-  CPAN::Meta: 0
-  CPAN::Meta::Prereqs: 0
-  Module::Build: 0.38
+  CPAN::Meta: '0'
+  CPAN::Meta::Prereqs: '0'
+  Module::Build: '0.38'
+  perl: 5.008_001
 dynamic_config: 0
-generated_by: 'Minilla/v0.4.5, CPAN::Meta::Converter version 2.131490'
+generated_by: 'Minilla/v2.1.1, CPAN::Meta::Converter version 2.141520'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: 1.4
+  version: '1.4'
 name: SQL-NamedPlaceholder
 no_index:
   directory:
@@ -25,19 +26,20 @@ no_index:
     - eg
     - examples
     - author
+    - builder
 provides:
   SQL::NamedPlaceholder:
     file: lib/SQL/NamedPlaceholder.pm
-    version: 0.03
+    version: '0.04'
 requires:
-  Carp: 0
-  Exporter::Lite: 0
-  Scalar::Util: 0
+  Exporter::Lite: '0'
+  Scalar::Util: '0'
 resources:
   bugtracker: https://github.com/cho45/SQL-NamedPlaceholder/issues
   homepage: https://github.com/cho45/SQL-NamedPlaceholder
   repository: git://github.com/cho45/SQL-NamedPlaceholder.git
-version: 0.03
+version: '0.04'
 x_contributors:
   - 'mechairoi <ttsujikawa@gmail.com>'
   - 'shiba_yu36 <shibayu36@gmail.com>'
+  - 'Songmu <y.songmu@gmail.com>'
